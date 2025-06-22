@@ -5,7 +5,7 @@ public class RandomNumberGenerator {
 
     public RandomNumberGenerator() {
         Random random = new Random();
-        this.numberToGuess = random.nextInt(1000) + 1;
+        this.numberToGuess = random.nextInt(100) + 1;
     }
 
     public int getNumberToGuess() {
